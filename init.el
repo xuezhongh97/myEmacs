@@ -4,15 +4,16 @@
 (setq custom-file (expand-file-name "custom.el" user-emacs-directory))
 
 
-
 (require 'init-consts)
 (require 'init-startup)
 (require 'init-elpa)
 (require 'init-package)
 (require 'init-ui)
+(require 'twilight-bright-theme)
 (when (file-exists-p custom-file)
   (load-file custom-file))
 
 
 
 
+(put 'upcase-region 'disabled nil)

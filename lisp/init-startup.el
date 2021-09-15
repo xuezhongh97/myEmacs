@@ -23,5 +23,7 @@
 
 (setq inhibit-startup-screen t)
 
+(global-visual-line-mode 1) ; 1 for on, 0 for off.
+
 (provide 'init-startup)
 ;;; init-startup.el ends here
